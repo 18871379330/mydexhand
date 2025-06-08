@@ -4,8 +4,8 @@ time = data{:, 1}; % 第一列为时间
 sensor_data = data{:, 2:end}; % 其余列为传感器数据
 
 % 设置时间段（用户可以根据需要修改）
-start_time = 226.9; % 开始时间
-end_time = 227.9;   % 结束时间
+start_time = 19.4; % 开始时间
+end_time = 20.4;   % 结束时间
 
 % 提取指定时间段的数据
 time_indices = (time >= start_time & time <= end_time);
